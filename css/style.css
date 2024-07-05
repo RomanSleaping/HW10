@@ -12,13 +12,13 @@
 .hero {
   color: var(--hero_footer-background);
 }
-body {
+.container {
   font-family: "Roboto";
 }
 
 /* HEADER */
 
-.logo {
+.header-logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -26,8 +26,11 @@ body {
   letter-spacing: 3%;
   color: var(--logo-black);
 }
+.accent-blue {
+  color: var(--blue-color);
+}
 
-.nav-link {
+.header-nav-link {
   color: var(--black-color);
   line-height: calc(16px / 14px);
   font-size: 14px;
@@ -35,14 +38,14 @@ body {
   letter-spacing: 2%;
 }
 
-.shlyapa-link {
+.contact-link {
   color: var(--grey-color);
   line-height: calc(16px / 14px);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 2%;
 }
-.active-link {
+.active {
   color: var(--blue-color);
 }
 
@@ -52,7 +55,7 @@ body {
 .hero {
   background-color: var(--hero_footer-background);
 }
-.hero-heading {
+.hero-title {
   color: var(--white-color);
   line-height: calc(60px / 44px);
   font-size: 44px;
@@ -60,7 +63,7 @@ body {
   letter-spacing: 6%;
 }
 
-.hero-button {
+.hero-btn {
   background-color: var(--blue-button);
   color: var(--white-color);
 
@@ -70,8 +73,8 @@ body {
   letter-spacing: 6%;
   text-align: center;
 }
-/* advantages */
-.advantages-rubric {
+/* advantage */
+.advantage-title {
   color: var(--black-color);
 
   font-size: 14px;
@@ -79,7 +82,7 @@ body {
   line-height: calc(16px / 14px);
   letter-spacing: 3%;
 }
-.advantages-text {
+.advantage-subtitle {
   color: var(--grey-color);
 
   font-size: 14px;
@@ -88,7 +91,7 @@ body {
   letter-spacing: 3%;
 }
 /* our-classes-rubrcic */
-.our-classes-rubrcic {
+.about-title {
   color: var(--black-color);
 
   font-size: 36px;
@@ -96,11 +99,11 @@ body {
   line-height: calc(42px / 36px);
   letter-spacing: 3%;
 }
-/* our-team  */
-.our-team {
+/* team  */
+.team {
   background-color: var(--our-team);
 }
-.our-team-rubric {
+.team-title {
   color: var(--black-color);
 
   font-size: 36px;
@@ -108,7 +111,7 @@ body {
   line-height: calc(42px / 36px);
   letter-spacing: 3%;
 }
-.pro-name {
+.team-subtitle {
   color: var(--black-color);
 
   font-size: 16px;
@@ -116,14 +119,14 @@ body {
   line-height: calc(19px / 16px);
   letter-spacing: 3%;
 }
-.pro-class {
+.team-text {
   color: var(--grey-color);
   font-size: 16px;
   font-weight: 400;
   line-height: calc(19px / 16px);
   letter-spacing: 3%;
 }
-.our-team-item {
+.team-list-item {
   background-color: var(--white-color);
 }
 
@@ -131,7 +134,7 @@ body {
 .footer {
   background-color: var(--hero_footer-background);
 }
-.logo-web {
+.accent-blue {
   color: var(--blue-color);
 }
 .footer-logo {
@@ -142,7 +145,7 @@ body {
   letter-spacing: 3%;
   color: var(--white-color);
 }
-.map-address {
+.footer-location {
   color: var(--white-color);
 
   font-size: 14px;
@@ -150,7 +153,7 @@ body {
   line-height: calc(24px / 14px);
   letter-spacing: 3%;
 }
-.address-link {
+.footer-contact-link {
   color: var(--footer-grey);
 
   font-size: 14px;

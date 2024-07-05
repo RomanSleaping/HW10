@@ -10,13 +10,13 @@
   --our-team: #f5f4fa;
 }
 
-body {
+.container {
   font-family: "Roboto";
 }
 
 /* HEADER */
 
-.logo {
+.header-logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -24,8 +24,11 @@ body {
   letter-spacing: 3%;
   color: var(--logo-black);
 }
+.accent-blue {
+  color: var(--blue-color);
+}
 
-.nav-link {
+.header-nav-link {
   color: var(--black-color);
   line-height: calc(16px / 14px);
   font-size: 14px;
@@ -33,20 +36,20 @@ body {
   letter-spacing: 2%;
 }
 
-.shlyapa-link {
+.contact-link {
   color: var(--grey-color);
   line-height: calc(16px / 14px);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 2%;
 }
-.active-link {
+.active {
   color: var(--blue-color);
 }
 
 /* MAIN */
 
-.nav-button {
+.filter-btn {
   background-color: var(--our-team);
   color: var(--black-color);
 
@@ -55,12 +58,12 @@ body {
   line-height: calc(26px / 16px);
   letter-spacing: 3%;
 }
-.active-button {
+.active-btn {
   background-color: var(--blue-color);
   color: var(--white-color);
 }
 /* portfolio  */
-.item-name {
+.portfolio-title {
   color: var(--black-color);
 
   font-size: 18px;
@@ -68,7 +71,7 @@ body {
   line-height: calc(36 / 18px);
   letter-spacing: 6%;
 }
-.item-note {
+.portfolio-note {
   color: var(--grey-color);
 
   font-size: 16px;
@@ -82,7 +85,7 @@ body {
 .footer {
   background-color: var(--hero_footer-background);
 }
-.logo-web {
+.accent-blue {
   color: var(--blue-color);
 }
 .footer-logo {
@@ -93,7 +96,7 @@ body {
   letter-spacing: 3%;
   color: var(--white-color);
 }
-.map-address {
+.footer-location {
   color: var(--white-color);
 
   font-size: 14px;
@@ -101,7 +104,7 @@ body {
   line-height: calc(24px / 14px);
   letter-spacing: 3%;
 }
-.address-link {
+.footer-contact-link {
   color: var(--footer-grey);
 
   font-size: 14px;
